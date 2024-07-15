@@ -1,0 +1,242 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3.7em !important;
+}
+.btn-square{
+    border-radius: 0 !important;
+}
+
+.form-line{
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-line:focus{
+    border-bottom-color: #80bdff;
+    box-shadow: none;
+    outline: 0;
+}
+
+/* <-----------slider> */
+
+.carousel-item img {
+    max-width: 100%; 
+    max-height: 70vh;
+  }
+
+  
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .dot.active {
+    background-color: #FF3366;
+    border-color: #FF3366;
+  }
+  .active-dot::after {
+    border-color: #FF3366;
+}
+
+
+.image-container1 {
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff3147; 
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .overlay-content {
+    color: white;
+    padding: 20px;
+  }
+  
+  .overlay-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .overlay-content p {
+    margin-bottom: 15px;
+  }
+  
+  .overlay-content .btn {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .image-container1:hover .overlay {
+    display: flex; 
+    opacity: 1; /
+  }
+  #txtcolor{
+    color: #ff3147;
+  }
+  #webimg{
+    height: 11vh;
+    width: 12vh;
+    margin-bottom: 2.5vh;
+  }
+  #smtxt{
+    font-size: .7rem;
+    margin-bottom: 3vh;
+  }
+
+
+  /* --------------- */
+
+  .wwd-description {
+    width: 520px;
+    color: #000000;
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+
+.WCU-section-card1 {
+    width: 260px;
+    border-radius: 8px;
+    cursor: default;
+}
+
+.card-style {
+    height: 58px;
+    width: 58px;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.card-description {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+}
+/* -------------
+ */
+ .OP-img-style {
+    height: 75vh;
+    width: 50vw;
+}
+
+.OP-bg-card {
+    background-color: #ff3147;
+}
+
+/* --------------------- */
+.EG-section-bg-container{
+  background-color: #fafafa;
+}
+
+.EG-section-card {
+    background-color: #ffffff;
+    border-radius: 6px;
+    width: 180px;
+    margin-left: 35px;
+    cursor: default;
+}
+
+.number-style {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+
+.CF-section-description {
+    background-image: url("https://res.cloudinary.com/detqp9dxl/image/upload/v1717323118/Quotemarks-left_ldblxl.png");
+    background-repeat: no-repeat;
+    height: 45px;
+    padding-top: 19px;
+    padding-left: 15px;
+    width: 90vh;
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+#txt-size{
+    font-size:.9rem;
+}
+.text-style-add {
+    color: #808080;
+}
+
+/* --------------------- */
+
+
+.Footer-section-bg-container {
+    background-image: url("https://res.cloudinary.com/detqp9dxl/image/upload/v1717326199/NoPath_-_Copy_kwevwj.png");
+    background-size: cover;
+    height: 30vh;
+    max-width: 100vw;
+    background-color: #ff3147;
+}
+
+.footer-img {
+    height: 40px;
+}
+
+
+/* -------------hover-> */
+
+ .custom-div:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+  
+
+/* ///////responsive---> */
+
+
+.image-container img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.text-content {
+  cursor: pointer;
+}
+ /* .active {
+  background-color: red;
+}  */

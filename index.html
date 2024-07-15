@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div class="mt-4 container">
+    <div class="row align-items-center">
+        <div class="col-md-7">
+    <p class="text-danger fs-3 fw-normal">AWARD WINNING</p>
+    <h1 class="fw-bolder">DIGITAL MARKETING AGENCY</h1>
+    <p class="custom-para-width">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse tempora ius eos nostrum optio iste laboriosam, quisquam ducimus, vel laudantium beatae omnis. Vel velit sint rerum minima illo!</p>
+    <button type="button" class="btn btn-danger btn-square btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+  <!-- Modal -->
+ 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content p-5">
+                <div>
+                    <h5 class="modal-title pop-up-heading fw-bold" id="exampleModalLabel"> Talk to us</h5>
+                </div>
+                <div>
+                    <form id="myForm" method="POST" action="https://getform.io/f/pagxmllb" enctype="multipart/form-data">
+                        <div class="mt-4">
+                            <label for="emailEl" class="work-email pl-2 d-none" id="workMail"> Work email </label>
+                            <input type="email" name="E-Mail" class="form-control border-none" placeholder="Work email*" id="emailEl" onfocus="clearPlaceholder()" onblur="restorePlaceholder()" />
+                        </div>
+                        <div class="mt-4 d-flex flex-row">
+                            <div class="mr-2">
+                                <label for="firstNamEl" class="work-email pl-2 d-none" id="firstName"> First name </label>
+                                <input type="text" name="First-Name" placeholder="First name*" class="form-control border-none mr-3" id="firstNamEl" onfocus="placeholderNone()" onblur="placeholderView()" />
+                            </div>
+                            <div class="ml-2">
+                                <label for="lastNameEl" class="work-email pl-2 d-none" id="lastName"> Last name </label>
+                                <input type="text" name="Last-Name" placeholder="Last name*" class="form-control border-none" id="lastNameEl" onfocus="nonePlaceholder()" onblur="viewPlaceholder()" />
+                            </div>
+                        </div>
+                        <div class="mt-5 d-flex flex-row">
+                            <input type="checkbox" value="Disagreed" name="Terms-&-Conditions" class="checkbox-desing" id="checkBoxInput" />
+                            <input type="hidden" value="Agreed" name="Terms-&-Conditions" class="checkbox-desing" id="checkBoxInputHidden" />
+                            <span class="custom-checkbox"></span>
+                            <label for="checkBoxInput" class="checkbox-text-style "> I agree to
+                                Fyle's terms and conditions, and provide <br /> consent to send me
+                                communication. </label>
+                        </div>
+                        <div class="mt-4">
+                            <button class="form-btn-style btn-danger btn-square btn-lg" id="contactUsBtn" type="submit"> Contact Us </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div></div>
+        <!-- //modal closing -->
+
+</div>
+<div class="col-md-4 offset-md-1">
+    <img class="img-fluid" src="./images/img1.png" />
+    </div>
+</div>
+<div class="text-bg-light p-3 mt-5">
+    <p class="text-danger">WHAT WE DO</p>
+    <div class="row">
+    <h2 class="fs-1 fw-bold col-md-5">SERVICES PROVIDE FOR YOU</h2>
+    <p class="col-md-6 offset-md-1 mt-3">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+</div>
+<!-- //slider -->
+
+<div class="container mt-5">
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img2.png" class="d-block w-100 img-fluid" alt="Image 1">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span> 
+                    <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img3.png" class="d-block w-100 img-fluid" alt="Image 2">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+                    <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img2.png" class="d-block w-100 img-fluid" alt="Image 3">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+                  <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img3.png" class="d-block w-100 img-fluid" alt="Image 4">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+                  <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+  <div class="row">
+    <div class="col">
+      <div class="image-container1">
+        <img src="./images/img2.png" class="d-block w-100 img-fluid" alt="Image 1">
+        <div class="overlay">
+          <div class="overlay-content">
+            <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+            <h3 class="fs-5">WEB DEVELPOMENT</h3>
+            <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+            <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+              <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="image-container1">
+        <img src="./images/img3.png" class="d-block w-100 img-fluid" alt="Image 2">
+        <div class="overlay">
+          <div class="overlay-content">
+            <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+            <h3 class="fs-5">WEB DEVELPOMENT</h3>
+            <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+            <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+            <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="image-container1">
+        <img src="./images/img2.png" class="d-block w-100 img-fluid" alt="Image 3">
+        <div class="overlay">
+          <div class="overlay-content">
+            <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+            <h3 class="fs-5">WEB DEVELPOMENT</h3>
+            <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+            <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+            <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="image-container1">
+        <img src="./images/img3.png" class="d-block w-100 img-fluid" alt="Image 4">
+        <div class="overlay">
+          <div class="overlay-content">
+            <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+            <h3 class="fs-5">WEB DEVELPOMENT</h3>
+            <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+            <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+            <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img2.png" class="d-block w-100 img-fluid" alt="Image 1">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+                  <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img3.png" class="d-block w-100 img-fluid" alt="Image 2">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+                  <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img2.png" class="d-block w-100 img-fluid" alt="Image 3">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+                  <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container1">
+              <img src="./images/img3.png" class="d-block w-100 img-fluid" alt="Image 4">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <img class="img-fluid" id="webimg" src="./images/webicon.PNG" />
+                  <h3 class="fs-5">WEB DEVELPOMENT</h3>
+                  <p id="smtxt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                  <a href="https://www.fylehq.com" class="btn btn-light btn-square" target="_blank"><span id="txtcolor">READ MORE</span>
+                  <img src="./images/arrow_right_alt_24dp_FF3147_FILL0_wght400_GRAD0_opsz24.svg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="carousel-dots mb-5">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div> 
+  </div>
+</div>
+  <!-- --------------------------- -->
+</div>
+<div id="WCUSection" class="pt-4">
+                <div class="WCU-section-bg-container pt-5 pb-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <p class="p-size text-center text-danger fs-5"> WHY CHOOSE US </p>
+                            <h2 class="digital-marketing-heading h-size text-center fw-bold"> WHY WE ARE BEST </h2>
+                        </div>
+                    </div>
+                    <div class="WCU-section-cards-container mt-4 d-flex flex-row justify-content-center">
+                        <div class="WCU-section-card1 mr-5 pt-3 pl-4 pr-4" id="wcuCard1">
+                            <img src="./images/t1.png" class="card-style" />
+                            <h4 class="card-heading mt-3 fw-bold"> Clarified Vision & Target </h4>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                        <div class="WCU-section-card1 pt-3 pl-4 pr-4 mr-5" id="wcuCard2">
+                            <img src="./images/t2.png" class="card-style" />
+                            <h4 class="card-heading mt-3 fw-bold"> High Performance </h4>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                        <div class="WCU-section-card1 pl-4 pt-3 pr-4 mr-5" id="wcuCard3">
+                            <img src="./images/t3.png" class="card-style" />
+                            <h4 class="card-heading mt-3 fw-bold"> Maintain Security </h4>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                        <div class="WCU-section-card1 pl-4 pr-4 pt-3" id="wcuCard4">
+                            <img src="./images/t4.png" class="card-style" />
+                            <h4 class="card-heading mt-3 fw-bold"> Better Strategy & Quality </h4>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="OPSection" class="">
+                <div class="OP-section-bg-container">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                          <!-- ----------- -->
+                          <div id="OPSection" class="mt-3">
+                            <div class="OP-section-bg-container">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div>
+                                        <p class="award-winning-text p-size text-center fs-5 text-danger"> OUR PROJECT </p>
+                                        <h2 class="digital-marketing-heading h-size text-center fw-bold"> WHY WE ARE BEST </h2>
+                                    </div>
+                                </div>
+                                <div class="OP-cards-img-container d-flex flex-row justify-content-center mt-5">
+                                    <div>
+                                        <img id="main-image" src="./images/image_oe28ow.png" class="OP-img-style img-fluid" id="changableImage" />
+                                    </div>
+                                    <div class="OP-cards-container ml-4 text-sm text-container"> 
+                                        <div class="OP-card p-4">
+                                            <h6 class="fw-bold text-content" onclick="changeImage(this)"> Genderless Kei – Japan’s Hot </h6>
+                                            <p class="OP-card-description mt-3" id="pdescriptiion1"> Set to launch on the
+                                                manufacturer’s new A330neo aircraft in 2017, it’s offering lots of </p>
+                                        </div>
+                                        <div class="OP-card OP-bg-card p-4">
+                                            <h6 class="OP-card-heading clr fw-bold text-content" onclick="changeImage(this)"> Better Strategy & Quality </h6>
+                                            <p class="OP-card-description mt-3 clr" id="pdescriptiion2"> Set to launch on the
+                                                manufacturer’s new A330neo aircraft in 2017, it’s offering lots of </p>
+                                        </div>
+                                        <div class="OP-card p-4">
+                                            <h6 class="OP-card-heading fw-bold text-content" onclick="changeImage(this)"> Genderless Kei – Tokyo’s Hot </h6>
+                                            <p class="OP-card-description mt-3" id="pdescriptiion3"> Set to launch on the
+                                                manufacturer’s new A330neo aircraft in 2017, it’s offering lots of </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------- -->
+
+                    <div id="EGSection" class="pt-5 EG-section-bg-container">
+                          <div class="pb-5">
+                              <div class="d-flex flex-row justify-content-center">
+                                  <div>
+                                      <p class="award-winning-text p-size text-center text-danger fs-5"> EXPERTS GROWTHS </p>
+                                      <h2 class="digital-marketing-heading ocg-size text-center fw-bold"> OUR COMPANY GROWTH </h2>
+                                  </div>
+                              </div>
+                              <div class="EG-section-cards-container d-flex flex-row justify-content-center mt-4">
+                                  <div class="EG-section-card p-3 text-center custom-div" id="card1">
+                                      <img src="./images/heart.png" />
+                                      <p class="number-style mt-2"> 199 + </p>
+                                      <p class="text-style"> Staticfied Customers </p>
+                                  </div>
+                                  <div class="EG-section-card p-3 text-center custom-div" id="card2">
+                                      <img src="./images/clock.png" />
+                                      <p class="number-style mt-2"> 1591 + </p>
+                                      <p class="text-style"> Days Of Operation </p>
+                                  </div>
+                                  <div class="EG-section-card p-3 text-center custom-div" id="card3">
+                                      <img src="./images/tick.png" />
+                                      <p class="number-style mt-2"> 283 + </p>
+                                      <p class="text-style"> Complete Project </p>
+                                  </div>
+                                  <div class="EG-section-card p-3 text-center custom-div" id="card4">
+                                      <img src="./images/award.png" />
+                                      <p class="number-style mt-2"> 75 + </p>
+                                      <p class="text-style"> Win Awards </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+<!-- ------------------------- -->
+
+<div id="CFSection" class="pt-5">
+  <div class="CF-section-bg-container">
+      <div class="d-flex flex-row justify-content-center">
+          <div class="custom-div1">
+              <p class="award-winning-text p-size text-center fs-5 text-danger"> CLIENT'S FEEDBACK </p>
+              <h2 class="digital-marketing-heading ocg-size text-center fw-bold"> PEOPLE SAY'S ABOUT US ! </h2>
+              <div class="CF-section-description mt-3"> 
+                  <p id="txt-size"> Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                      below for those interested. Sections Bonorum et Malorum original. </p>
+              </div>
+              <div class="mt-5 pl-3 d-flex flex-row">
+                  <p class="text-style-name text-danger fw-bold"> JANNAT TUMPA </p>
+                  <p class="pl-1 text-style-add"> - COO, AMERIMAR ENTERPRISES, INC. </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- -------------------- -->
+<div class="Footer-section-bg-container d-flex flex-row justify-content-center mt-5">
+  <div class="d-flex flex-column justify-content-center col-md-8">
+      <img src="./images/footer.png" class="footer-img img-fluid" />
+  </div>
+</div>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+</body>
+</html>
